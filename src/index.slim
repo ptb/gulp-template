@@ -1,0 +1,14 @@
+doctype html
+html(xmlns="http://www.w3.org/1999/xhtml")
+  head
+    meta(charset="utf-8")/
+    title &#160;
+    link(href="/css/style.css" rel="stylesheet")/
+  body(data-is="ptb-app")
+    script(async src="/browser-sync/browser-sync-client.2.12.8.js")
+    script(src="/js/riot-2.4.0.min.js")
+    / script(src="/js/riot-3.0a3.min.js")
+    script(src="/js/riotcontrol.min.js")
+    script(src="/js/ptb-app.js")
+    script
+      | riot.mount("*")
