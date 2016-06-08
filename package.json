@@ -6,7 +6,7 @@
   "scripts": {
     "init": "npm install && bundle install",
     "start": "node_modules/gulp/bin/gulp.js",
-    "test": "node_modules/eslint-watch/bin/esw --ignore-pattern '*.min.js' --watch src/js"
+    "test": "node_modules/eslint-watch/bin/esw --ignore-pattern '*.min.js' --watch spec/ src/js/"
   },
   "repository": {
     "type": "git",

@@ -13,6 +13,7 @@ module.exports = {
   "env": {
     "browser": true,
     "es6": true,
+    "jasmine": true,
     "node": true
   },
 
