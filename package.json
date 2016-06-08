@@ -2,7 +2,7 @@
   "name": "template",
   "version": "2016.6.8",
   "description": "web project template",
-  "main": "node_modules/.bin/gulp",
+  "main": "node_modules/gulp/bin/gulp.js",
   "scripts": {
     "init": "npm install && bundle install",
     "start": "node_modules/gulp/bin/gulp.js",
